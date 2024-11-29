@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 30px;
+    color: white;
+    background-color: yellowgreen;
+
+}
+.container{
+    height:500px;
+    width:400px;
+    border: 1px solid magenta;
+    padding: 16px;
+    background-color:magenta;
+    border-radius: 5%;
+}
+#fromCurrency,#toCurrency,#amount,#result{
+    height: 30px;
+    width: 250px;
+    margin-left: 70px;
+    background-color: mediumturquoise;
+}
+#currency-converter{
+    height: 30px;
+    width: 250px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:blue;
+}
